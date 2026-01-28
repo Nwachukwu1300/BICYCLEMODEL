@@ -1,0 +1,9 @@
+{
+  "model_type": "XGBoost (Original Features Only)",
+  "n_features": 22,
+  "test_metrics": {
+    "mae": 91.53317260742188,
+    "rmse": 126.29849393525048,
+    "r2": 0.6715508103370667
+  }
+}

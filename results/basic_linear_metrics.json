@@ -1,0 +1,14 @@
+{
+  "model_type": "Basic Linear Regression (No Tuning)",
+  "parameters": "default",
+  "train_metrics": {
+    "mae": 38.347890152329214,
+    "rmse": 57.38625448284218,
+    "r2": 0.8598901069296745
+  },
+  "test_metrics": {
+    "mae": 53.67544587586538,
+    "rmse": 79.26486858581187,
+    "r2": 0.8683144745197269
+  }
+}

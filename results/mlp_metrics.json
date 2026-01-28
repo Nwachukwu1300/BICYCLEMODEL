@@ -1,0 +1,44 @@
+{
+  "model_type": "Multi-Layer Perceptron Regressor",
+  "best_params": {
+    "mlp__learning_rate_init": 0.001,
+    "mlp__hidden_layer_sizes": [
+      64,
+      32
+    ],
+    "mlp__alpha": 0.01,
+    "mlp__activation": "relu"
+  },
+  "architecture": {
+    "input_features": 40,
+    "hidden_layers": [
+      64,
+      32
+    ],
+    "output_neurons": 1,
+    "total_parameters": 4737,
+    "training_iterations": 224
+  },
+  "cross_validation": {
+    "n_splits": 5,
+    "cv_method": "TimeSeriesSplit",
+    "best_cv_mae": 36.42623745726304
+  },
+  "train_metrics": {
+    "mae": 19.89192923280695,
+    "rmse": 29.325333869951788,
+    "r2": 0.9634119745615553
+  },
+  "test_metrics": {
+    "mae": 35.580623364440584,
+    "rmse": 51.507622145640696,
+    "r2": 0.9443942688714546
+  },
+  "target_statistics": {
+    "train_mean": 161.7313106997593,
+    "train_std": 153.31742086023127,
+    "test_mean": 257.7072114639814,
+    "test_std": 218.4508694950837
+  },
+  "random_state": 42
+}

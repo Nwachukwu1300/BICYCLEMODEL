@@ -1,0 +1,14 @@
+{
+  "model_type": "Basic XGBoost (No Tuning)",
+  "parameters": "default (n_estimators=100, learning_rate=0.3, max_depth=6)",
+  "train_metrics": {
+    "mae": 10.239635721781662,
+    "rmse": 14.350264972399053,
+    "r2": 0.9912386126315327
+  },
+  "test_metrics": {
+    "mae": 38.67978279902615,
+    "rmse": 61.1628749309256,
+    "r2": 0.9215934517039168
+  }
+}

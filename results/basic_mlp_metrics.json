@@ -1,0 +1,15 @@
+{
+  "model_type": "Basic MLP (No Tuning)",
+  "parameters": "default (hidden_layer_sizes=(100,), activation='relu')",
+  "train_metrics": {
+    "mae": 23.00393408817483,
+    "rmse": 33.70665901156783,
+    "r2": 0.9516624697362983
+  },
+  "test_metrics": {
+    "mae": 37.78548918222269,
+    "rmse": 55.20832178655293,
+    "r2": 0.9361169497081077
+  },
+  "n_iterations": 500
+}

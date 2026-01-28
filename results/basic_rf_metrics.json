@@ -1,0 +1,14 @@
+{
+  "model_type": "Basic Random Forest (No Tuning)",
+  "parameters": "default (n_estimators=100)",
+  "train_metrics": {
+    "mae": 7.597404997094712,
+    "rmse": 12.660747482700705,
+    "r2": 0.9931801984754245
+  },
+  "test_metrics": {
+    "mae": 37.46877687838886,
+    "rmse": 60.36441728374852,
+    "r2": 0.9236272236823158
+  }
+}

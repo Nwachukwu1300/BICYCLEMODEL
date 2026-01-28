@@ -1,0 +1,9 @@
+{
+  "model_type": "MLP (Original Features Only)",
+  "n_features": 22,
+  "test_metrics": {
+    "mae": 92.35115634911558,
+    "rmse": 131.52480882975877,
+    "r2": 0.6438054512459495
+  }
+}

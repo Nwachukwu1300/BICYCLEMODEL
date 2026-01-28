@@ -1,0 +1,29 @@
+{
+  "model_type": "Linear Regression Baseline",
+  "best_params": {
+    "regressor": "LinearRegression()",
+    "regressor__fit_intercept": "True"
+  },
+  "cross_validation": {
+    "n_splits": 5,
+    "cv_method": "TimeSeriesSplit",
+    "best_cv_mae": 42.74940280169132
+  },
+  "train_metrics": {
+    "mae": 38.347890152329214,
+    "rmse": 57.38625448284218,
+    "r2": 0.8598901069296745
+  },
+  "test_metrics": {
+    "mae": 53.67544587586538,
+    "rmse": 79.26486858581187,
+    "r2": 0.8683144745197269
+  },
+  "target_statistics": {
+    "train_mean": 161.7313106997593,
+    "train_std": 153.31742086023127,
+    "test_mean": 257.7072114639814,
+    "test_std": 218.4508694950837
+  },
+  "random_state": 42
+}

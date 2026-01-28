@@ -1,0 +1,32 @@
+{
+  "model_type": "XGBoost Regressor",
+  "best_params": {
+    "subsample": 1.0,
+    "n_estimators": 300,
+    "max_depth": 3,
+    "learning_rate": 0.05,
+    "colsample_bytree": 0.8
+  },
+  "cross_validation": {
+    "n_splits": 5,
+    "cv_method": "TimeSeriesSplit",
+    "best_cv_mae": 34.242042744250874
+  },
+  "train_metrics": {
+    "mae": 22.539437705537157,
+    "rmse": 34.07786635192052,
+    "r2": 0.9505919364961731
+  },
+  "test_metrics": {
+    "mae": 39.01855992687717,
+    "rmse": 58.27665717975786,
+    "r2": 0.9288187160348703
+  },
+  "target_statistics": {
+    "train_mean": 161.7313106997593,
+    "train_std": 153.31742086023127,
+    "test_mean": 257.7072114639814,
+    "test_std": 218.4508694950837
+  },
+  "random_state": 42
+}

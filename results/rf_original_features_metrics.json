@@ -1,0 +1,9 @@
+{
+  "model_type": "Random Forest (Original Features Only)",
+  "n_features": 22,
+  "test_metrics": {
+    "mae": 90.70058227848101,
+    "rmse": 126.46747167121508,
+    "r2": 0.6706712977721336
+  }
+}

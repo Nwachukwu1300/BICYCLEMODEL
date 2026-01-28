@@ -1,0 +1,9 @@
+{
+  "model_type": "Linear Regression (Original Features Only)",
+  "n_features": 22,
+  "test_metrics": {
+    "mae": 121.7110258568229,
+    "rmse": 188.34785871079745,
+    "r2": 0.2695453055131176
+  }
+}

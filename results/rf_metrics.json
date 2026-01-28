@@ -1,0 +1,31 @@
+{
+  "model_type": "Random Forest Regressor",
+  "best_params": {
+    "n_estimators": 500,
+    "min_samples_split": 5,
+    "max_features": 0.5,
+    "max_depth": 20
+  },
+  "cross_validation": {
+    "n_splits": 5,
+    "cv_method": "TimeSeriesSplit",
+    "best_cv_mae": 35.44682189768457
+  },
+  "train_metrics": {
+    "mae": 8.680624877559303,
+    "rmse": 14.399121671489938,
+    "r2": 0.9911788532978004
+  },
+  "test_metrics": {
+    "mae": 36.87247120523418,
+    "rmse": 58.106357024138504,
+    "r2": 0.9292341301019194
+  },
+  "target_statistics": {
+    "train_mean": 161.7313106997593,
+    "train_std": 153.31742086023127,
+    "test_mean": 257.7072114639814,
+    "test_std": 218.4508694950837
+  },
+  "random_state": 42
+}
