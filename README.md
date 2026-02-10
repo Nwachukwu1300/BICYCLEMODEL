@@ -1,4 +1,4 @@
-# Bicycle Demand Prediction
+# Bicycle Demand Prediction -85% grade in uni
 
 This project trains several regression models (linear, random forest, gradient boosting, and MLP) to predict hourly bicycle usage. The workflow lives in `MLnotebook.ipynb`, which covers data cleaning, feature engineering (seasonal signals, lagged demand, rolling stats), model training, and evaluation.
 
