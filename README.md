@@ -2,6 +2,11 @@
 
 This project trains several regression models (linear, random forest, gradient boosting, and MLP) to predict hourly bicycle usage. The workflow lives in `MLnotebook.ipynb`, which covers data cleaning, feature engineering (seasonal signals, lagged demand, rolling stats), model training, and evaluation.
 
+## Demo video
+
+https://livecoventryac-my.sharepoint.com/personal/nwachukwum_uni_coventry_ac_uk/_layouts/15/stream.aspx?id=%2Fpersonal%2Fnwachukwum%5Funi%5Fcoventry%5Fac%5Fuk%2FDocuments%2Fbicycle%5Fmodel%5Fvideo%2Emov&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E87d5fa85%2D927d%2D4ce4%2D9f0c%2D9094d257f063
+
+
 ## Dataset
 
 Paste the dataset source URL here so future runs know where to fetch it:
