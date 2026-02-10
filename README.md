@@ -11,7 +11,7 @@ https://livecoventryac-my.sharepoint.com/personal/nwachukwum_uni_coventry_ac_uk/
 
 Paste the dataset source URL here so future runs know where to fetch it:
 
-`< (https://www.openml.org/search?type=data&sort=runs&id=42712&status=active) >`
+https://www.openml.org/search?type=data&sort=runs&id=42712&status=active) 
 
 Place the downloaded file (or derived train/test splits) inside `data/` and update the notebook paths if you change the filenames.
 
